@@ -1,9 +1,9 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplorerTabUtility", "ExplorerTabUtility\ExplorerTabUtility.csproj", "{F5A13696-3D58-4925-A63E-83D9495A6F0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExplorerTabUtility", "ExplorerTabUtility\ExplorerTabUtility.csproj", "{F5A13696-3D58-4925-A63E-83D9495A6F0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

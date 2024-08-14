@@ -1,13 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFrameworks>net7.0-windows;net481</TargetFrameworks>
+    <TargetFrameworks>net8.0-windows</TargetFrameworks>
     <Nullable>enable</Nullable>
     <UseWindowsForms>True</UseWindowsForms>
     <ApplicationIcon>Icon.ico</ApplicationIcon>
-	<Version>1.3.0</Version>
-	<LangVersion>latest</LangVersion>
+    <Version>1.3.0</Version>
+    <LangVersion>latest</LangVersion>
     <Title>Explorer Tab Utility</Title>
     <Authors>w4po</Authors>
     <Company>$(AssemblyName)</Company>
@@ -16,19 +15,16 @@
     <PackageProjectUrl>https://github.com/w4po/ExplorerTabUtility</PackageProjectUrl>
     <RepositoryUrl>https://github.com/w4po/ExplorerTabUtility</RepositoryUrl>
   </PropertyGroup>
-
   <ItemGroup>
     <Content Include="Icon.ico" />
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="FlaUI.UIA3" Version="4.0.0" />
     <PackageReference Include="H.Hooks" Version="1.6.0" />
-    <PackageReference Include="H.InputSimulator" Version="1.4.1" />
+    <PackageReference Include="H.InputSimulator" Version="1.4.2" />
     <PackageReference Include="MaterialSkin.2" Version="2.3.1" />
-    <PackageReference Include="System.Text.Json" Version="8.0.0" />
+    <PackageReference Include="System.Text.Json" Version="8.0.4" />
   </ItemGroup>
-
   <ItemGroup>
     <Compile Update="Properties\Settings.Designer.cs">
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -36,12 +32,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
   </ItemGroup>
-
   <ItemGroup>
     <None Update="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
-
 </Project>
